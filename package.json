@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "telegra-bot-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devil_Zeldris",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/menu": "^1.2.1",
+    "dotenv": "^16.4.1",
+    "grammy": "^1.20.3"
+  }
+}
