@@ -28,18 +28,18 @@ export class Register {
     }
 
     async getCommands() {
-        const { length } = Object.keys(Commands);
-
-        if (!length) return console.log(`[REGISTER]`, `No found commands`);
+        const commands = Object.keys(Commands);
+        console.log(commands);
+        if (!commands.length) return console.log(`[REGISTER]`, `No found commands`);
 
         for (const Command of Object.values(Commands)) {
 
             const command = new Command();
 
-            this.client.command(command.name, async ctx => command.execute({ ctx, client: this.client }));
+            this.client.command(command.name, async ctx => await command.execute({ ctx, client: this.client }));
             console.log(`[COMMAND]`, `Command '${command.name}' is loaded`);
         }
-        console.log(`[REGISTER]`, `Loaded ${Object.keys(Commands).length} commands`)
+        console.log(`[REGISTER]`, `Loaded ${commands.length} commands`)
         return this;
     }
 

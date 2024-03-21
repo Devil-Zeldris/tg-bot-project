@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "text": "Test question for this Poll",
+        "hasOptions": true,
+        "options": [
+            {
+                "id": 1,
+                "text": "Test answer one"
+            },
+            {
+                "id": 2,
+                "text": "Test answer two"
+            },
+            {
+                "id": 3,
+                "text": "Test answer three"
+            },
+            {
+                "id": 4,
+                "text": "Test answer four"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Test question for this Poll",
+        "hasOptions": true,
+        "options": [
+            {
+                "id": 1,
+                "text": "Test answer one"
+            },
+            {
+                "id": 2,
+                "text": "Test answer two"
+            },
+            {
+                "id": 3,
+                "text": "Test answer three"
+            },
+            {
+                "id": 4,
+                "text": "Test answer four"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Test question for this Poll",
+        "hasOptions": true,
+        "options": [
+            {
+                "id": 1,
+                "text": "Test answer one"
+            },
+            {
+                "id": 2,
+                "text": "Test answer two"
+            },
+            {
+                "id": 3,
+                "text": "Test answer three"
+            },
+            {
+                "id": 4,
+                "text": "Test answer four"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Test question for this Poll",
+        "hasOptions": true,
+        "options": [
+            {
+                "id": 1,
+                "text": "Test answer one"
+            },
+            {
+                "id": 2,
+                "text": "Test answer two"
+            },
+            {
+                "id": 3,
+                "text": "Test answer three"
+            },
+            {
+                "id": 4,
+                "text": "Test answer four"
+            }
+        ]
+    }
+]
