@@ -1,9 +1,11 @@
-import { Bot } from "grammy";
+import { Bot, HttpError, GrammyError } from "grammy";
 import { Register } from "./Register.class.js";
 
 export class Client extends Bot {
     constructor({ token }) {
         super(token);
+        this.candidates = new Map();
+        this.polls = new Map()
     }
     async login() {
         const register = new Register({ client: this })
